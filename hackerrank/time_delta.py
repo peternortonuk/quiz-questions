@@ -66,8 +66,6 @@ if __name__ == '__main__':
         t1, t2 = pair
         naive_diff, tzone_diff, delta = time_delta(t1, t2)
         print(t1, '\n', t2, '\n', naive_diff.seconds, '\n', tzone_diff.seconds, '\n', delta, '\n', answer, '\n\n\n')
-        if delta == answer:
-            results.append(1)
-        else:
-            results.append(0)
+        results.append(delta - answer)
+
     pass
