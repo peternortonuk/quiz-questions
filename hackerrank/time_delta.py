@@ -49,23 +49,18 @@ from test_time_delta import test_cases
 fmt = '%a %d %b %Y %H:%M:%S %z'
 
 
-# Complete the time_delta function below.
 def time_delta(t1, t2):
     t1 = dt.strptime(t1, fmt)
     t2 = dt.strptime(t2, fmt)
-    naive_diff = t1.replace(tzinfo=None) - t2.replace(tzinfo=None)
-    tzone_diff = t1.utcoffset() - t2.utcoffset()
-    diff = naive_diff.total_seconds() + tzone_diff.total_seconds()
+    diff = (t1 - t2).total_seconds()
     diff = abs(diff)
-    return naive_diff, tzone_diff, abs(diff)
+    return diff
 
 
 if __name__ == '__main__':
-    results = []
     for pair, answer in test_cases:
         t1, t2 = pair
-        naive_diff, tzone_diff, delta = time_delta(t1, t2)
-        print(t1, '\n', t2, '\n', naive_diff.seconds, '\n', tzone_diff.seconds, '\n', delta, '\n', answer, '\n\n\n')
-        results.append(delta - answer)
-
-    pass
+        result = time_delta(t1, t2)
+        error = result - answer
+        if error != 0:
+            print(t1, '\n', t2, '\n', error)
