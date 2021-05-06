@@ -1,0 +1,195 @@
+[
+  {
+    "app_id": "332aff71953e43412a946ab10190bc7a",
+    "city": "London,uk",
+    "temperature_measurement": "C",
+    "weather_data": {
+      "coord": {
+        "lon": -0.1257,
+        "lat": 51.5085
+      },
+      "weather": [
+        {
+          "id": 802,
+          "main": "Clouds",
+          "description": "scattered clouds",
+          "icon": "03d"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 286,
+        "feels_like": 284.86,
+        "temp_min": 284.15,
+        "temp_max": 288.15,
+        "pressure": 1011,
+        "humidity": 58
+      },
+      "visibility": 10000,
+      "wind": {
+        "speed": 1.03,
+        "deg": 0
+      },
+      "clouds": {
+        "all": 30
+      },
+      "dt": 1619517964,
+      "sys": {
+        "type": 1,
+        "id": 1414,
+        "country": "GB",
+        "sunrise": 1619498379,
+        "sunset": 1619550980
+      },
+      "timezone": 3600,
+      "id": 2643743,
+      "name": "London",
+      "cod": 200
+    }
+  },
+  {
+    "app_id": "332aff71953e43412a946ab10190bc7a",
+    "city": "London,uk",
+    "temperature_measurement": "C",
+    "weather_data": {
+      "coord": {
+        "lon": -0.1257,
+        "lat": 51.5085
+      },
+      "weather": [
+        {
+          "id": 802,
+          "main": "Clouds",
+          "description": "scattered clouds",
+          "icon": "03d"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 286.29,
+        "feels_like": 285.04,
+        "temp_min": 285.37,
+        "temp_max": 287.04,
+        "pressure": 1010,
+        "humidity": 53
+      },
+      "visibility": 10000,
+      "wind": {
+        "speed": 0.89,
+        "deg": 153,
+        "gust": 2.24
+      },
+      "clouds": {
+        "all": 30
+      },
+      "dt": 1619517310,
+      "sys": {
+        "type": 3,
+        "id": 2006068,
+        "country": "GB",
+        "sunrise": 1619498379,
+        "sunset": 1619550980
+      },
+      "timezone": 3600,
+      "id": 2643743,
+      "name": "London",
+      "cod": 200
+    }
+  },
+  {
+    "app_id": "332aff71953e43412a946ab10190bc7a",
+    "city": "London,uk",
+    "temperature_measurement": "C",
+    "weather_data": {
+      "coord": {
+        "lon": -0.1257,
+        "lat": 51.5085
+      },
+      "weather": [
+        {
+          "id": 802,
+          "main": "Clouds",
+          "description": "scattered clouds",
+          "icon": "03d"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 286.09,
+        "feels_like": 284.95,
+        "temp_min": 284.15,
+        "temp_max": 288.15,
+        "pressure": 1011,
+        "humidity": 58
+      },
+      "visibility": 10000,
+      "wind": {
+        "speed": 1.03,
+        "deg": 0
+      },
+      "clouds": {
+        "all": 30
+      },
+      "dt": 1619518082,
+      "sys": {
+        "type": 1,
+        "id": 1414,
+        "country": "GB",
+        "sunrise": 1619498379,
+        "sunset": 1619550980
+      },
+      "timezone": 3600,
+      "id": 2643743,
+      "name": "London",
+      "cod": 200
+    }
+  },
+  {
+    "app_id": "332aff71953e43412a946ab10190bc7a",
+    "city": "London,uk",
+    "temperature_measurement": "C",
+    "weather_data": {
+      "coord": {
+        "lon": -0.1257,
+        "lat": 51.5085
+      },
+      "weather": [
+        {
+          "id": 802,
+          "main": "Clouds",
+          "description": "scattered clouds",
+          "icon": "03d"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 286.09,
+        "feels_like": 284.95,
+        "temp_min": 284.15,
+        "temp_max": 288.15,
+        "pressure": 1011,
+        "humidity": 58
+      },
+      "visibility": 10000,
+      "wind": {
+        "speed": 1.03,
+        "deg": 0
+      },
+      "clouds": {
+        "all": 30
+      },
+      "dt": 1619518082,
+      "sys": {
+        "type": 1,
+        "id": 1414,
+        "country": "GB",
+        "sunrise": 1619498379,
+        "sunset": 1619550980
+      },
+      "timezone": 3600,
+      "id": 2643743,
+      "name": "London",
+      "cod": 200
+    }
+  }
+]

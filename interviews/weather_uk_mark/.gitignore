@@ -1,0 +1,6 @@
+venv
+.coverage
+.idea
+.env
+database.json
+__pycache__
